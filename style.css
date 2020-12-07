@@ -1,0 +1,64 @@
+#submitButton{
+    position:absolute;
+    top:16%;
+    left:16%;
+    border:0;
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    background-color: grey;
+}
+
+.borderDiv{
+    border-style: dashed;
+    width: fit-content;
+    border-radius: 50%;
+    padding:20px;
+}
+#button-border {
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border-radius: 50%;
+    border: 2px dashed;
+    border-bottom-color: yellow;
+    border-right-color: yellow;
+    padding:15px;
+    cursor: pointer;
+    -webkit-animation-name: Rotate;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: Rotate;
+    -moz-animation-duration: 7s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: Rotate;
+    -ms-animation-duration: 7s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+}
+
+@-webkit-keyframes Rotate
+{
+ from{-webkit-transform:rotate(0deg);}
+ to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes Rotate
+{
+ from{-moz-transform:rotate(0deg);}
+ to{-moz-transform:rotate(360deg);}
+}
+@-ms-keyframes Rotate
+{
+ from{-ms-transform:rotate(0deg);}
+ to{-ms-transform:rotate(360deg);}
+}
+
+.button-container{
+  position:relative;
+  width:100px;
+  height:100px;
+}
+
+
